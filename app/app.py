@@ -34,7 +34,7 @@ def main():
     if choice=="Home":
         add_page_visited_details("Home",datetime.now())
 
-        st.subheader("Home-Emotion in Text")
+        st.subheader("Test app for MoodMe/Elevate")
 
         with st.form(key='emotion_clf_form'):
             raw_text =st.text_area("Type here")
