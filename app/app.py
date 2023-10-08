@@ -12,7 +12,7 @@ from track_utils import create_page_visited_table,add_page_visited_details,view_
 
 
 
-pipe_lr =joblib.load(open("app\models\emotion_classifier_pipe_lr_8_oct_2023.pkl", "rb"))
+pipe_lr =joblib.load(open("app/models/emotion_classifier_pipe_lr_8_oct_2023.pkl", "rb"))
 
 emotions_emoji_dict = {"anger":"😠","disgust":"🤮", "fear":"😨😱", "happy":"🤗", "joy":"😂", "neutral":"😐", "sad":"😔", "sadness":"😔", "shame":"😳", "surprise":"😮"}
 
